@@ -1,5 +1,8 @@
-var VueCapcay = (function (exports, vueCapcay_vue) {
-  'use strict';
+(function (global, factory) {
+  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('vue-capcay.vue')) :
+  typeof define === 'function' && define.amd ? define(['exports', 'vue-capcay.vue'], factory) :
+  (global = global || self, factory(global.VueCapcay = {}, global.vueCapcay_vue));
+}(this, (function (exports, vueCapcay_vue) { 'use strict';
 
   // Declare install function executed by Vue.use()
   function install(Vue) {
@@ -27,6 +30,6 @@ var VueCapcay = (function (exports, vueCapcay_vue) {
   exports.default = vueCapcay_vue.VueCapcay;
   exports.install = install;
 
-  return exports;
+  Object.defineProperty(exports, '__esModule', { value: true });
 
-}({}, vueCapcay_vue));
+})));

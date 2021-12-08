@@ -1,10 +1,10 @@
-import { VueCapcay } from 'vue-capcay.vue';
+import { vue2Captcha } from 'vue2-captcha.vue';
 
 // Declare install function executed by Vue.use()
 function install(Vue) {
   if (install.installed) { return; }
   install.installed = true;
-  Vue.component('vue-capcay', VueCapcay);
+  Vue.component('vue2-captcha', vue2Captcha);
 }
 
 // Create module definition for Vue.use()
@@ -23,5 +23,5 @@ if (GlobalVue) {
   GlobalVue.use(plugin);
 }
 
-export default VueCapcay;
+export default vue2Captcha;
 export { install };

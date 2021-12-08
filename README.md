@@ -2,12 +2,16 @@
 
 #install
 ```bash
-npm i vue2captcah
+npm i vue2-captcha
 
 ```
 
 #usage
 ```html
-<vue2-captcha ref="forRefreshEtc" v-model="yourData" input-id="yourFirstCaptchaID" captcha-style-name="yourFirstStyle" :url="endpoint url"></vue2-captcha>
+<vue2-captcha ref="forRefreshEtc" 
+    v-model="yourData" 
+    input-id="yourFirstCaptchaID" 
+    captcha-style-name="yourFirstStyle" 
+    :url="endpoint url"></vue2-captcha>
 
 ```

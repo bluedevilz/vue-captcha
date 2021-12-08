@@ -1,19 +1,19 @@
-import {vue2Captcha} from "vue2-captcha.vue";
+import { VueCapcay } from 'vue-capcay.vue';
 
 // Declare install function executed by Vue.use()
-export function install(Vue) {
-  if (install.installed) return;
+function install(Vue) {
+  if (install.installed) { return; }
   install.installed = true;
-  Vue.component('vue2-captcha', vue2Captcha);
+  Vue.component('vue-capcay', VueCapcay);
 }
 
 // Create module definition for Vue.use()
-const plugin = {
-  install,
+var plugin = {
+  install: install,
 };
 
 // Auto-install when vue is found (eg. in browser via <script> tag)
-let GlobalVue = null;
+var GlobalVue = null;
 if (typeof window !== 'undefined') {
   GlobalVue = window.Vue;
 } else if (typeof global !== 'undefined') {
@@ -23,5 +23,5 @@ if (GlobalVue) {
   GlobalVue.use(plugin);
 }
 
-// To allow use as module (npm/webpack/etc.) export component
-export default vue2Captcha;
+export default VueCapcay;
+export { install };

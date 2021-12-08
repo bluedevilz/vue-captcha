@@ -8,7 +8,7 @@
 <script>
 // export component
 export default {
-  name: "vue-capcay",
+  name: "vue2-captcha",
   props: {
     url: {
       type: String,

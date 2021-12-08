@@ -1,6 +1,6 @@
 {
-  "name": "vue-captcha",
-  "version": "0.1.2",
+  "name": "vue2-capcay",
+  "version": "1.0.1",
   "description": "Input capthca component to display currency value based on Vue.",
   "author": "Hersa Arnerangi",
   "main": "dist/vue-captcha.umd.js",
@@ -22,10 +22,8 @@
     "vue.js"
   ],
   "homepage": "https://github.com/bluedevilz/vue-captcha",
-  "license": "MIT",
-  "dependencies": {
-    "acorn": "^6.4.2"
-  },
+  "license": "ISC",
+  "dependencies": {},
   "scripts": {
     "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
     "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/vue-captcha.umd.js",
@@ -35,6 +33,7 @@
   "devDependencies": {
     "@rollup/plugin-buble": "^0.21.3",
     "@rollup/plugin-commonjs": "^11.1.0",
+    "acorn": "^6.4.2",
     "postcss": "^8.4.4",
     "rollup": "^1.17.0",
     "rollup-plugin-vue": "^5.0.1",

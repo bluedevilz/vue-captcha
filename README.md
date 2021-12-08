@@ -1,12 +1,12 @@
 # vue2-captcha 
 
-##install
+## install
 ```bash
 npm i vue2-captcha
 
 ```
 
-##usage
+## usage
 ```html
 <vue2-captcha ref="forRefreshEtc" 
     v-model="yourData" 
@@ -16,7 +16,7 @@ npm i vue2-captcha
 
 ```
 
-##ISC License
+## ISC License
 
 Copyright 2021 Hersa AS
 

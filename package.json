@@ -1,11 +1,14 @@
 {
   "name": "vue2-captcha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Input capthca component to display currency value based on Vue.",
   "author": "Hersa Arnerangi",
   "main": "dist/vue2-captcha.umd.js",
   "module": "dist/vue2-captcha.esm.js",
   "unpkg": "dist/vue2-captcha.min.js",
+  "browser": {
+    "./sfc": "src/vue2-captchat.vue"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bluedevilz/vue2-captcha.git"

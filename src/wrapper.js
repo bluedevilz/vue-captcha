@@ -1,4 +1,4 @@
-import {vue2Captcha} from "vue2-captcha.vue";
+import vue2Captcha from "./vue2-captcha.vue";
 
 // Declare install function executed by Vue.use()
 export function install(Vue) {
